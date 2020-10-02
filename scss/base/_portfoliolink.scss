@@ -1,0 +1,32 @@
+.portfolioLinkHeader {
+    background-color: #CD5C5C;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}   
+
+#profileProjectName {
+    font-weight: bold;
+    color: white;
+}
+
+.portfolioLink {
+    color: white;
+    display: inline-block;
+    border-bottom: 1px solid white;
+}
+
+.portfolioLink:hover {
+    border-color: black;
+}
+
+.portfolioLinkHeader a:hover {
+    color: black;
+}
+
+.portfolioLinkHeader p{
+    margin: 0;
+    color: white;
+    text-align: center;
+}
